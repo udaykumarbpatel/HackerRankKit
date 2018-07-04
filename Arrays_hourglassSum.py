@@ -1,4 +1,12 @@
 # Complete the function hourglassSum in the editor below. It should return an integer, the maximum hourglass sum in the array.
+#
+# 1 1 1 0 0 0
+# 0 1 0 0 0 0
+# 1 1 1 0 0 0
+# 0 0 2 4 4 0
+# 0 0 0 2 0 0
+# 0 0 1 2 4 0
+
 
 import math
 import os
