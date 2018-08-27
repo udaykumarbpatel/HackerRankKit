@@ -25,10 +25,18 @@ import sys
 def arrayManipulation(n, queries):
     arr = [0] * (n+1)
     for q in queries:
-        for i in range(q[0], q[1]):
-            arr[i] = arr[i] + q[2]
-        arr[q[1]] = arr[q[1]] + q[2]
-    print max(arr)
+        arr[q[0]] =arr[q[0]] + q[2]
+        if q[1]+1 <= n:
+            arr[q[1]+1] = arr[q[1]+1] - q[2]
+        print arr
+
+    max = maxi= 0
+    for i in xrange(n+1):
+        maxi = maxi + arr[i]
+        if max < maxi:
+            max = maxi
+    print max
+
 
 
 
