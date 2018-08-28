@@ -37,9 +37,6 @@ def arrayManipulation(n, queries):
             max = maxi
     print max
 
-
-
-
 if __name__ == '__main__':
     nm = raw_input().split()
     n = int(nm[0])
