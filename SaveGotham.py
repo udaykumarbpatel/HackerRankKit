@@ -14,6 +14,7 @@ def SaveGotham(a):
     print total % 1000000001
 
 
+
 T = int(raw_input())
 for i in xrange(T):
     n = int(raw_input())
