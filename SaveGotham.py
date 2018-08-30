@@ -9,7 +9,7 @@ def createstack():
 
 
 def isempty(stack):
-    return (len(stack) == 0)
+    return len(stack) == 0
 
 
 def push(stack, x):
@@ -37,7 +37,6 @@ def savegotham(a):
             ele = pop(s)
             while ele < next:
                 count = count + next
-                # print str(ele) + " -- " + str(next)
                 if isempty(s):
                     break
                 ele = pop(s)
@@ -49,7 +48,6 @@ def savegotham(a):
         ele = pop(s)
         next = 0
         count = count + next
-        # print str(ele) + " -- " + str(next)
     print count
 
 
