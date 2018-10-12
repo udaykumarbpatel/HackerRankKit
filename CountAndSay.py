@@ -8,6 +8,7 @@ def count_and_say(n):
     for i in range(3, n + 1):
         s = s + '$'
         l = len(s)
+
         count = 1
         temp = ""
 
@@ -18,7 +19,7 @@ def count_and_say(n):
                 count = 1
             else:
                 count += 1
-        # print i,temp
+        print i,temp
         s = temp
     return s
 
